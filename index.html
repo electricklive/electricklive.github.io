@@ -6,14 +6,24 @@
     <title>electrick.live</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to right, black 50%, #00acee 50%);
+        }
+        h1 {
+            color: white;
             text-align: center;
-            margin: 50px;
+            font-size: 3em;
+            margin-bottom: 20px;
         }
         p {
             display: flex;
             justify-content: center;
-            gap: 20px; /* Space between images */
+            gap: 20px;
         }
         a img {
             width: 150px;
@@ -27,14 +37,16 @@
     </style>
 </head>
 <body>
-    <h1>electrick.live</h1>
-    <p>
-        <a href="https://twitter.com/Electricklive" target="_blank">
-            <img src="images/x logo.png" alt="Electricklive X Profile">
-        </a>
-        <a href="https://bsky.app/profile/Electricklive" target="_blank">
-            <img src="images/bsky logo.png" alt="Electricklive Bluesky Profile">
-        </a>
-    </p>
+    <div>
+        <h1>electrick.live</h1>
+        <p>
+            <a href="https://twitter.com/Electricklive" target="_blank">
+                <img src="images/x logo.png" alt="Electricklive X Profile">
+            </a>
+            <a href="https://bsky.app/profile/Electricklive" target="_blank">
+                <img src="images/bsky logo.png" alt="Electricklive Bluesky Profile">
+            </a>
+        </p>
+    </div>
 </body>
 </html>
